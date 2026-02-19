@@ -1,0 +1,120 @@
+/* Reset & body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("Time.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.navbar {
+    padding: 15px 30px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.logo {
+    color: #00f;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    margin-right: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+div.start {
+    width: 50%;
+    display: flex;
+}
+
+.profile-btn {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+/* Clock */
+.main-content {
+    margin-top: 60px;
+}
+
+.clock-box {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#time {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#seconds {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+#date {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Texts */
+.goal {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.quote {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+/* Buttons */
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-group button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
